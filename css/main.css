@@ -42,3 +42,35 @@ header ul a{
     background-position:center;
     background-size: cover;
 }
+
+.input-field.input-container{
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input-field > #search{
+    margin-top: 25px;
+}
+
+.input-container i{
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+footer.page-footer{
+    height: 80px;
+    background-color: grey;
+    bottom: 0;
+}
+
+/*Post.html*/
+.post-pic{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://picsum.photos/1000/400');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
