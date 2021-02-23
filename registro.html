@@ -16,19 +16,19 @@
 <body>
 
     <!-------------HEADER--------------->
-    <header>
+    <header class="registro-header">
         <nav class="container">
             <a href="#" class="brand-logo valing-wrapper">
                 <img class="responsive-img z-depth-2" src="assets/img/favicon-196x196.png" alt="Logo de blog">
             </a>
             <ul class="right valign-wrapper">
                 <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a class="btn" href="registro.html">Registro</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a class="btn" href="index.html">Inicio</a></li>
             </ul>
         </nav>
         <section class="contianer">
-            <div class="row registro.titulo">
+            <div class="row registro-titulo center-align">
                 <div class="col s12">
                     <h1>Registrate en DigettNews</h1>
                 </div>
@@ -39,9 +39,9 @@
 
     <!-------------MAIN--------------->
     <main class="container">
-        <div class="row">
+        <div class="row ">
             <div class="col s12">
-                <div class="card-panel">
+                <div class="card-panel z-depth-3">
                     <form action="">
                         <div class="row section">
                             <div class="input-field col s12 m6">
@@ -63,12 +63,59 @@
                                 <label for="pasword">Contraseña</label>
                             </div>   
                         </div>
+                        <div class="section">
+                            <h3 class="center-align">Te interesa noticias de?</h3>
+                        </div>
+                        <div class="section">
+                           <div class="row">
+                            <label class="col s12 m4">
+                                <input type="checkbox">
+                                <span>Politica</span>
+                            </label>
+                            <label class="col 12 m4">
+                                <input type="checkbox">
+                                <span>Economia</span>
+                            </label>
+                            <label class="col s12 m4">
+                                <input type="checkbox">
+                                <span>Finanzas</span>
+                            </label>
+                           </div>
+                           <div class="row">
+                            <label class="col s12 m4">
+                                <input type="checkbox">
+                                <span>Entretenimiento</span>
+                            </label>
+                            <label class="col 12 m4">
+                                <input type="checkbox">
+                                <span>Cultura</span>
+                            </label>
+                            <label class="col s12 m4">
+                                <input type="checkbox">
+                                <span>Tecnologia</span>
+                            </label>
+                           </div>
+                           <div class="section">
+                               <div class="row">
+                                   <div class="col s12">
+                                       <button class="btn waves-effect waves-light center-align">
+                                        Enviar <i class="material-icons right">send</i>
+                                       </button>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </main>
     <!-------------MAIN--------------->
+    <section class="section">
+        <div class="row">
+            <div class="post-pic z-depth-2"></div>
+        </div>
+    </section>
     <footer class="page-footer"></footer>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

@@ -74,3 +74,28 @@ footer.page-footer{
     background-position: center;
     background-size: cover;
 }
+
+/*Registro*/
+.registro-titulo{
+    margin-top:80px;
+}
+
+.registro-header{
+    height: 450px;
+}
+
+/*Contactame*/
+.nombres-container li img{
+    margin: 30px 10px;
+}
+.nombres-container li h4{
+    margin: 10px;
+}
+.collection .collection-item.avatar p {
+    margin: 4px 20px;
+}
+
+
+.contactame-container h3 img{
+    width: 40px;
+}
